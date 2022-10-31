@@ -4,15 +4,18 @@ pagetitle: "a website :)"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(tidyverse)
 ```
 
-Here's my website
+# **Hello World!**
 
 ```{r fig.align='center', fig.width=5, fig.height=5}
 
 knitr::include_graphics("./media/misc/hamburger.jpg")
 
 ```
+## Here are some links
 
+[About me!](https://jensenjcaldwell.github.io/aboutme)
+[My CV](https://jensenjcaldwell.github.io/cv/cv.pdf)
