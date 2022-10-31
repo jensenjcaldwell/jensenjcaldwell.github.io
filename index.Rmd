@@ -1,0 +1,18 @@
+---
+output: html_document
+pagetitle: "a website :)"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(tidyverse)
+```
+
+Here's my website
+
+```{r fig.align='center', fig.width=5, fig.height=5}
+
+knitr::include_graphics("./media/misc/hamburger.jpg")
+
+```
+
